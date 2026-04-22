@@ -20,7 +20,7 @@ BuildRequires:	python%{pyver}dist(wheel)
 BuildRequires:	python%{pyver}dist(virtualenv)
 
 %description
-Pytest plugin for testing console scripts
+Pytest plugin for testing console scripts.
 
 %prep -a
 # Remove bundled egg-info
